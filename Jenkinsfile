@@ -22,7 +22,7 @@ pipeline {
                 sshPublisher(
                     publishers: [
                         sshPublisherDesc(
-                            configName: 'AhmadServer',
+                            configName: 'Ahmadktkserver',
                             transfers: [sshTransfer(sourceFiles: '**/*', remoteDirectory: '/myapp')],
                 
                         )
