@@ -22,7 +22,7 @@ pipeline {
                 sshPublisher(
                     publishers: [
                         sshPublisherDesc(
-                            configName: 'MyWebServerAws',
+                            configName: 'AhmadServer',
                             transfers: [sshTransfer(sourceFiles: '**/*', remoteDirectory: '/myapp/')],
                             
                         )
